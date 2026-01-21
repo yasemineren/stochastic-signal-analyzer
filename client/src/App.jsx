@@ -13,7 +13,7 @@ function App() {
   const getBaseUrl = () => {
     // Codespaces ortamı için dinamik URL, lokal için localhost
     if (window.location.hostname.includes("github.dev") || window.location.hostname.includes("app.github.dev")) {
-        return 'https://' + window.location.hostname.replace('-5173', '-3001').replace('-5174', '-3001');
+        return 'https://' + window.location.hostname.replace('-5174', '-3001').replace('-5174', '-3001');
     }
     return 'http://localhost:3001';
   };
@@ -76,7 +76,7 @@ function App() {
 
   return (
     <div style={{ padding: "40px", fontFamily: "monospace", backgroundColor: "#121212", color: "#00ff41", minHeight: "100vh" }}>
-      <h1>⚛️ Kuantum Sinyal Analizörü <span style={{fontSize:"12px", border:"1px solid lime", padding:"2px"}}>PRO</span></h1>
+      <h1>⚛️ Stochastic Signal Analyzer <span style={{fontSize:"12px", border:"1px solid lime", padding:"2px"}}></span></h1>
       
       {/* ÜST PANEL: API Key ve Dosya Yükleme */}
       <div style={{ marginBottom: "30px", padding: "20px", border: "1px dashed #444", borderRadius: "10px" }}>
