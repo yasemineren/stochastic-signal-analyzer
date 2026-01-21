@@ -33,7 +33,6 @@ You can run the entire stack with a single command.
 ```bash
 # 1. Clone the repository
 git clone https://github.com/yasemineren/stochastic-signal-analyzer.git
-g(https://github.com/yasemineren/stochastic-signal-analyzer.git)
 
 # 2. Run with Docker Compose
 docker-compose up --build
